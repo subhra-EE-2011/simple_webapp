@@ -8,6 +8,6 @@ public class SimpleController{
 	
 	@GetMapping(value="/",produces="text/html")
 	public String welcome(){
-		return "<html><body><h1 style="color:red">Fuck Off</h1></body></html>";
+		return "<html><body><h1 style=/"color:red/">Fuck Off</h1></body></html>";
 	}
 }
