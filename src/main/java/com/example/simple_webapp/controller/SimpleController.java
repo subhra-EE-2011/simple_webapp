@@ -8,6 +8,6 @@ public class SimpleController{
 	
 	@GetMapping(value="/",produces="text/plain")
 	public String welcome(){
-		return "Welcome to simple webapp";
+		return "Fuck off bloody cunts";
 	}
 }
