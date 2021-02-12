@@ -10,7 +10,7 @@ public class SimpleController{
 	@GetMapping(value="/",produces="text/html")
 	public String welcome(){
 		
-		String ipAddress = "IP address can't be obtained"
+		String ipAddress = "IP address can't be obtained" ;
 		
 		try{
 		  InetAddress inetAddress = InetAddress.getLocalHost();
