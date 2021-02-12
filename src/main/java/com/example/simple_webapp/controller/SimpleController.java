@@ -15,7 +15,7 @@ public class SimpleController{
 		try{
 		  InetAddress inetAddress = InetAddress.getLocalHost();
 		  ipAddress = inetAddress.getHostAddress();
-		catch(UnknownHostException e){
+		}catch(UnknownHostException e){
 			 e.printStackTrace();
 		 }
 
